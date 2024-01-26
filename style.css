@@ -1,0 +1,136 @@
+
+.gradient-container{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 700%;
+	animation: gradient 15s ease infinite;
+	height: 68vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.star{
+  border-color:#007ced ;
+  width:200px;
+  height:100px;
+  position: absolute;
+
+}
+.text{
+  font-family: "Sacramento",cursive;
+
+}
+.text1{
+  font-family: "Montserrat",sans-serif;
+  padding-top: 2.5rem;
+  color:#6C22A6;
+}
+.myphoto{
+  border-radius: 50%;
+  padding-top: 2.5rem;
+  display:block;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text2{
+  color: #6C22A6;
+}
+.para{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+
+}
+
+
+
+.col-lg-4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-fluid{
+  background-color:  linear-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+.hi{
+  text-align: center;
+  margin-top: 3.5rem;
+  color: #6C22A6;
+}
+.text6{
+  color: #23d5ab;
+  text-align: left;
+}
+.lead{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 1rem;
+}
+.img2{
+  width:200px;
+  height:200px;
+  text-align: right;
+}
+.lead2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+.img3{
+  width:200px;
+  height:200px;
+  text-align: right;
+}
+.text7{
+  color: #23d5ab;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.lead3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+.img4{
+  width:200px;
+  height:200px;
+  text-align: right;
+  border-radius: 50%;
+}
+.text8{
+  color: #23d5ab;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.get{
+  color: #6C22A6;
+
+}
+.text9{
+  color: #23d5ab;
+  font-size:1.5rem;
+}
+.lead5{
+  font-size: 1.5rem;
+}
+.footer{
+  background-color: #6C22A6;
+}
+
+
